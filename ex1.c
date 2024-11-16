@@ -21,7 +21,7 @@ int main() {
   
   int bit;
   bit = (number >> position) & 1;
-  printf("the bit in position %d of the number %d is : %d\n", position,number, bit);
+  printf("the bit in position %d of the number %d is: %d\n", position,number, bit);
 
   
   // Set bit
@@ -97,4 +97,3 @@ int main() {
   printf("Bye!\n");
   
   return 0;
-}
